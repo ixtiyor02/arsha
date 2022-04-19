@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Open+Sans:wght@400;500;600&display=swap');
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin-left: 150px;
+    padding: 40px 0;
+}
+.footer-address p{
+    color: #777;
+}
+#address{
+    width: 160px;
+}
+.footer-links{
+    margin-top: 5px;
+}
+.footer-useful-links li{
+    padding: 5px 0;
+    color: #777;
+}
+.footer-services{
+    margin-top: 5px;
+}
+.footer-services-links li{
+    padding: 5px 0;
+    color: #777;
+}
+.footer-social-text{
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.footer-social-text p{
+    width: 250px;
+    color: #777;
+}
+.footer-social-icon{
+    margin-left: -50px;
+}
+.footer-social-icon i{
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: #47b2e4;
+    padding: 7px;
+    color:white;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.footer-social-icon i:hover{
+    background-color: #1d9fdb;
+}
+h1, h2, h3, h6{
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+}
+p, ul{
+    color: #999999;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; 
+}
+
+@media screen and (max-width:480px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-address{
+        margin-left: -200px;
+    }
+    .footer-links{
+        margin-left: -220px;
+    }
+    .footer-services{
+        margin-left: -190px;
+    }
+    .footer-social{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .footer-social h2{
+        width: 70%;
+    }
+    .footer-social p{
+        width: 60%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-address{
+        margin-left: -200px;
+    }
+    .footer-links{
+        margin-left: -220px;
+    }
+    .footer-services{
+        margin-left: -190px;
+    }
+    .footer-social{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .footer-social h2{
+        width: 70%;
+    }
+    .footer-social p{
+        width: 60%;
+    }
+}

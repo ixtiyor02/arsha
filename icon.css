@@ -1,0 +1,123 @@
+.icon{
+    background-color: #f3f5fa;
+    margin-top: -20px;
+}
+.icon-container{
+    height: 90px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#one{
+    width: 80px;
+    height: 30px;
+}
+#two{
+    width: 80px;
+    height: 30px;
+}
+#three{
+    width: 80px;
+    height: 30px;
+}
+#four{
+    width: 80px;
+    height: 40px;
+}
+#five{
+    width: 80px;
+    height: 30px;
+}
+#six{
+    width: 80px;
+    height: 30px;
+}
+
+@media screen and (max-width:480px) {
+    .icon-container{
+        height: 60px;
+    }
+    #one{
+        width: 40px;
+        height: 15px;
+    }
+    #two{
+        width: 40px;
+        height: 15px;
+    }
+    #three{
+        width: 40px;
+        height: 15px;
+    }
+    #four{
+        width: 40px;
+        height: 20px;
+    }
+    #five{
+        width: 40px;
+        height: 15px;
+    }
+    #six{
+        width: 40px;
+        height: 15px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px) {
+    .icon-container{
+        height: 60px;
+    }
+    #one{
+        width: 50px;
+        height: 20px;
+    }
+    #two{
+        width: 50px;
+        height: 20px;
+    }
+    #three{
+        width: 50px;
+        height: 20px;
+    }
+    #four{
+        width: 50px;
+        height: 20px;
+    }
+    #five{
+        width: 50px;
+        height: 20px;
+    }
+    #six{
+        width: 50px;
+        height: 20px;
+    }
+}
+@media screen and (min-width:721px) and (max-width:1024px) {
+    .icon-container{
+        height: 70px;
+    }
+    #one{
+        width: 60px;
+        height: 25px;
+    }
+    #two{
+        width: 60px;
+        height: 25px;
+    }
+    #three{
+        width: 60px;
+        height: 25px;
+    }
+    #four{
+        width: 60px;
+        height: 25px;
+    }
+    #five{
+        width: 60px;
+        height: 25px;
+    }    
+    #six{
+        width: 50px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Open+Sans:wght@400;500;600&display=swap');
+
+
+.pricing{
+    padding: 100px 0;
+    background-color: white;
+}
+.pricing-container{
+    margin-top: -50px;
+}
+.pricing-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.pricing-text h1{
+    font-family: "Jost", sans-serif;
+    color: #37517e;
+    font-size: 32px;
+}
+.pricing-text p{
+    width: 1150px;
+    margin-top: -10px;
+    font-size: 16px;
+    color:#444444;
+    font-family: "Open Sans", sans-serif;
+}
+.pricing-cards{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-left : 150px;
+    margin-top: 30px;
+}
+.free-plan{
+    width: 350px;
+    height: 490px;
+    background-color: white;
+    margin-left: -20px;
+}
+.business-plan{
+    width: 350px;
+    height: 490px;
+    background-color: white;
+    
+}
+.developer-plan{
+    width: 350px;
+    height: 490px;
+    background-color: white;
+    
+}
+.free-plan{
+    width: 350px;
+    height: 490px;
+    background-color: white;
+    
+}
+.free-plan-header{
+    margin-left: 20px;
+}
+.free-plan-header h3{
+    margin-top: 30px;
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+}
+.free-plan-header h4{
+    margin-top: -30px;
+    font-size: 48px;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+}
+.free-plan-header p{
+    color: #47b2e4;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -70px;
+}
+.free-plan{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(34, 60, 80, 0.07);
+}
+.business-plan{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(34, 60, 80, 0.07);
+}
+.developer-plan{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(34, 60, 80, 0.07);
+}
+.free-plan-main{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.free-plan-main p{
+    color: #999999;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.free-btn{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#got{
+    background-color: #47b2e4;
+    color: white;
+}
+.free-btn button{
+    border: 1px solid #47b2e4;
+    color: #47b2e4;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    border-radius: 30px;
+    height: 45px;
+    width: 140px;
+    cursor: pointer;
+    background-color:white;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+.free-btn button:hover{
+    background-color: #47b2e4;
+    color:white;
+}
+@media screen and (max-width:480px) {
+    .pricing-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-text p{
+        width: 60%;
+    }
+    .free-plan{
+        width: 90%;
+        margin-left: -100px;
+    }
+    .business-plan{
+        width: 90%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    .developer-plan{
+        width: 90%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px) {
+    .pricing-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pricing-text p{
+        width: 60%;
+    }
+    .free-plan{
+        width: 50%;
+        margin-left: -100px;
+    }
+    .business-plan{
+        width: 50%;
+    }
+    .developer-plan{
+        width: 50%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width:721px) and (max-width:1024px) {
+    .pricing-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pricing-text p{
+        width: 60%;
+    }
+    .free-plan{
+        width: 50%;
+        margin-left: -100px;
+    }
+    .business-plan{
+        width: 50%;
+    }
+    .developer-plan{
+        width: 50%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+}

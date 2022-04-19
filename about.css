@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Open+Sans:wght@400;500;600&display=swap');
+
+.about{
+    background-color:white;
+    padding: 40px 0;
+}
+.about-header{
+    display: flex;
+    justify-content: center;
+}
+.about-header h2{
+    color: #37517e;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+}
+.about-text{
+    display: flex;
+    justify-content: center;
+    
+}
+.about-text-left{
+    height: 200px;
+    width: 500px;
+}
+.about-text-left p{
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+}
+
+.about-text-right{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 160px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-text-right p{
+    color: #444;
+}
+.but{
+    margin-top: -5px;
+    width: 140px;
+}
+.but button{
+    border-radius: 4px;
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    color: #47b2e4;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    border: 1px solid #47b2e4;
+    transition: 0.4s ease;
+}
+.but:hover button{
+    background-color: #47b2e4;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    .about-header{
+        margin-top: -40px;
+    }
+    .about-text{
+        margin-top: -30px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px) {
+    .about-header{
+        margin-top: -40px;
+    }
+    .about-text{
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1024px) {
+    .about-header{
+        margin-top: -40px;
+    }
+    .about-text{
+        margin-top: -30px;
+    }
+}
